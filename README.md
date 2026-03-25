@@ -5,10 +5,11 @@
 ---
 
 ## 🌍 Languages
-- 🇬🇧 English (default)
+- 🇬🇧 English [Enlish](#-english)
 - 🇵🇱 Polski → [Przejdź do sekcji polskiej](#-polski)
 
 ---
+# 🇬🇧 English 
 
 ## 📥 Download
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/tag/v1.0.0)
