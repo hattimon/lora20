@@ -1,33 +1,173 @@
-﻿# lora20 GUI
+# 🚀 lora20 GUI
 
-Prosta aplikacja Tkinter do budowania operacji lora20 (JSON), kodowania/dekodowania CBOR oraz fragmentacji payloadu pod limity Helium/LoRaWAN.
+> Simple Tkinter app for building lora20 operations, CBOR encoding/decoding, and payload fragmentation for Helium / LoRaWAN.
 
+---
+
+## 🌍 Languages
+- 🇬🇧 English (default)
+- 🇵🇱 Polski → [Przejdź do sekcji polskiej](#-polski)
+
+---
+
+## 📥 Download
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/tag/v1.0.0)
 
-## Funkcje
-- Kreator operacji: deploy, mint, transfer, link
-- Kodowanie JSON -> CBOR (hex) i dekodowanie CBOR -> JSON
-- Wyliczanie kosztu DC (kazde rozpoczete 24 bajty = 1 DC)
-- Fragmentacja CBOR do ramek (limit 51 bajtow, naglowek 4B)
-- Motyw jasny/ciemny, jezyk PL/EN
-- Zapisywanie ustawien uzytkownika
+---
 
-## Wymagania
-- Python 3 z Tkinter
-- Wymagane do CBOR: cbor2
-- Opcjonalnie: appdirs (lepsza lokalizacja ustawien)
+## ✨ Features
 
-## Instalacja zaleznosci
+### 🧱 Deploy
+![Deploy](img/deploy.png)
+Create new lora20 token definitions.
+
+### 🪙 Mint
+![Mint](img/mint.png)
+Mint tokens based on deployed contract.
+
+### 🔄 Transfer
+![Transfer](img/transfer.png)
+Transfer tokens between addresses.
+
+### 🔗 Link
+![Link](img/link.png)
+Link metadata or references to operations.
+
+---
+
+### ⚙️ Core Functionality
+- JSON → CBOR (hex) encoding
+- CBOR → JSON decoding
+- DC cost calculation *(every started 24 bytes = 1 DC)*
+- Payload fragmentation *(51B limit, 4B header)*
+- Light / Dark mode
+- Multi-language support (EN / PL)
+- User settings persistence
+
+---
+
+## 📦 Requirements
+- Python 3
+- Tkinter
+- `cbor2`
+- *(optional)* `appdirs`
+
+---
+
+## 🔧 Installation
+```bash
 py -m pip install cbor2 appdirs
+```
 
-## Uruchomienie
+---
+
+## ▶️ Run
+```bash
 py lora20_gui.py
+```
 
-## Build EXE (Windows)
+---
+
+## 🏗️ Build EXE (Windows)
+```bash
 py -m pip install pyinstaller
 py -m PyInstaller lora20_gui.spec
+```
 
-Wynik znajdziesz w `dist/lora20_gui`.
+Output will be available in:
+```
+dist/lora20_gui
+```
 
-## Ustawienia
-Plik ustawien zapisywany jest w katalogu danych uzytkownika (appdirs) albo w `~/.lora20_gui/settings.json`.
+---
+
+## ⚙️ Settings
+Settings file is stored in:
+- User data directory (via `appdirs`)
+- or fallback: `~/.lora20_gui/settings.json`
+
+---
+
+# 🇵🇱 Polski
+
+## 📥 Pobieranie
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/tag/v1.0.0)
+
+---
+
+## ✨ Funkcje
+
+### 🧱 Deploy
+![Deploy](img/deploy.png)
+Tworzenie nowych definicji tokenów lora20.
+
+### 🪙 Mint
+![Mint](img/mint.png)
+Mintowanie tokenów na podstawie kontraktu.
+
+### 🔄 Transfer
+![Transfer](img/transfer.png)
+Transfer tokenów między adresami.
+
+### 🔗 Link
+![Link](img/link.png)
+Łączenie metadanych lub referencji.
+
+---
+
+### ⚙️ Główne możliwości
+- Kodowanie JSON → CBOR (hex)
+- Dekodowanie CBOR → JSON
+- Obliczanie kosztu DC *(każde rozpoczęte 24 bajty = 1 DC)*
+- Fragmentacja payloadu *(limit 51B, nagłówek 4B)*
+- Motyw jasny / ciemny
+- Obsługa wielu języków (EN / PL)
+- Zapisywanie ustawień użytkownika
+
+---
+
+## 📦 Wymagania
+- Python 3
+- Tkinter
+- `cbor2`
+- *(opcjonalnie)* `appdirs`
+
+---
+
+## 🔧 Instalacja
+```bash
+py -m pip install cbor2 appdirs
+```
+
+---
+
+## ▶️ Uruchomienie
+```bash
+py lora20_gui.py
+```
+
+---
+
+## 🏗️ Budowa EXE (Windows)
+```bash
+py -m pip install pyinstaller
+py -m PyInstaller lora20_gui.spec
+```
+
+Plik wynikowy znajdziesz w:
+```
+dist/lora20_gui
+```
+
+---
+
+## ⚙️ Ustawienia
+Plik ustawień zapisywany jest w:
+- katalogu danych użytkownika (`appdirs`)
+- lub: `~/.lora20_gui/settings.json`
+
+---
+
+## ⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub!
+
