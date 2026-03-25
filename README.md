@@ -12,7 +12,7 @@
 # 🇬🇧 English 
 
 ## 📥 Download
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/tag/v1.0.0)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/download/v1.0.0/lora20_gui.exe)
 
 ---
 
@@ -92,7 +92,7 @@ Settings file is stored in:
 # 🇵🇱 Polski
 
 ## 📥 Pobieranie
-[![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/tag/v1.0.0)
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/download/v1.0.0/lora20_gui.exe)
 
 ---
 
