@@ -98,19 +98,19 @@ Settings file is stored in:
 ## ✨ Funkcje
 
 ### 🧱 Deploy
-![Deploy](img/deploy.png)
+![Deploy](img/deploy_pl.png)
 Tworzenie nowych definicji tokenów lora20.
 
 ### 🪙 Mint
-![Mint](img/mint.png)
+![Mint](img/mint_pl.png)
 Mintowanie tokenów na podstawie kontraktu.
 
 ### 🔄 Transfer
-![Transfer](img/transfer.png)
+![Transfer](img/transfer_pl.png)
 Transfer tokenów między adresami.
 
 ### 🔗 Link
-![Link](img/link.png)
+![Link](img/link_pl.png)
 Łączenie metadanych lub referencji.
 
 ---
