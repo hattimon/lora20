@@ -5,7 +5,7 @@
 ---
 
 ## 🌍 Languages
-- 🇬🇧 English [Enlish](#-english)
+- 🇬🇧 English [English](#-english)
 - 🇵🇱 Polski → [Przejdź do sekcji polskiej](#-polski)
 
 ---
