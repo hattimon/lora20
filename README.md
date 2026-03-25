@@ -2,6 +2,10 @@
 
 Prosta aplikacja Tkinter do budowania operacji lora20 (JSON), kodowania/dekodowania CBOR oraz fragmentacji payloadu pod limity Helium/LoRaWAN.
 
+# lora20 encoder / decoder (Windows)  
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?logo=windows)](https://github.com/hattimon/lora20/releases/tag/v1.0.0)
+
+
 ## Funkcje
 - Kreator operacji: deploy, mint, transfer, link
 - Kodowanie JSON -> CBOR (hex) i dekodowanie CBOR -> JSON
